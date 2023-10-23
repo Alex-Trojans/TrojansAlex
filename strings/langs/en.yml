@@ -195,10 +195,10 @@ tracks_2 : "**ᴇʀʀᴏʀ**\n\nᴛʜᴇʀᴇ's ɴᴏ **{0} ᴛᴏᴘ 10 ᴘʟ�
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**ᴜsᴀɢᴇ:**\n\n/lyrics [ ᴍᴜsɪᴄ ɴᴀᴍᴇ]"
-lyrics_2 : "sᴇᴀʀᴄʜɪɴɢ ʟʏʀɪᴄs..."
-lyrics_3 : "❌ ꜰᴀɪʟᴇᴅ ᴛᴏ ꜰᴇᴛᴄʜ ʟʏʀɪᴄs 😭.\n\n💡**ᴛʀɪᴇᴅ sᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ:** {0}"
-lyrics_4 : "ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ɢᴇᴛ sᴇᴀʀᴄʜᴇᴅ ʟʏʀɪᴄs ᴛᴏ ᴀᴠᴏɪᴅ ʟᴏɴɢ sᴘᴀᴍ ᴛʏᴘᴇs ʟʏʀɪᴄs sᴇᴀʀᴄʜ."
+lyrics_1 : "**Usage:**\n\n/lyrics [ Music Name]"
+lyrics_2 : "Searching lyrics..."
+lyrics_3 : "Failed to fetch lyrics.!\n\n💡**Tried Searching for:** {0}"
+lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam types lyrics search."
 
 #Ping
 ping_1 : "Pinging..."
@@ -218,25 +218,25 @@ song_10 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴜᴘʟᴏᴀᴅ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ
 song_11 : "ᴜᴘʟᴏᴀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ ʙᴀʙʏ\n\nᴘʟᴇᴀsᴇ ʜᴏʟᴅ ᴏɴ..."
 
 # Tools - Queue
-queue_1 : "» ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ..."
+queue_1 : " Please wait..."
 queue_2 : "Queued List is empty. No tracks found"
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "**✨ Added to Quque at #{0}**\n\n✨ **Title :** {1}\n✨ **Duration :** {2} Minutes\n🥀 **Requested By :** {3}"
+queue_4 : "**✨ Added to Quque at #{0}**\n\n✨ **Title :** {1}\n✨ **Duration :** {2} Minutes\n👤 **Requested By :** {3}"
 queue_5 : "ᴏɴʟʏ ᴏɴᴇ ᴛʀᴀᴄᴋ ɪs ɪɴ ǫᴜᴇᴜᴇ, ᴀᴅᴅ sᴏᴍᴇ ᴍᴏʀᴇ ᴛʀᴀᴄᴋs ɪɴ ǫᴜᴇᴜᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇ."
 
 # All Streaming Lines
-stream_1 : "➢ **Started Streaming**\n\n✨ **Title :** [{0}]({1})\n💫**Duration :** {2} Minutes\n🥀 **Requested By :** {3}"
-stream_2 : "➢ **Started Streaming**\n\n✨**Stream Type :** ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n🥀 **Requested By:** {0}"
-stream_3 : "➢ **Started Streaming**\n\n✨ **Title:** {0}\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** {1}\n🥀 **Requested By:** {2} "
-stream_4 : "➢ **Started Streaming**\n\n✨ **Title :** [{0}]({1})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ :** {2}\n🥀 **Requested By :** {3}"
+stream_1 : "➢ **Started Streaming**\n\n✨ **Title :** [{0}]({1})\n💫**Duration :** {2} Minutes\n👤 **Requested By :** {3}"
+stream_2 : "➢ **Started Streaming**\n\n✨**Stream Type :** Live Stream [url]\n👤 **Requested By:** {0}"
+stream_3 : "➢ **Started Streaming**\n\n✨ **Title:** {0}\n🕕 **Duration:** {1}\n👤 **Requested By:** {2} "
+stream_4 : "➢ **Started Streaming**\n\n✨ **Title :** [{0}]({1})\n🕕 **Duration:** {2}\n👤 **Requested By :** {3}"
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "↻ ᴄʟᴏsᴇ ↻"
-CLOSEMENU_BUTTON  : "↻ ᴄʟᴏsᴇ ↻"
+CLOSE_BUTTON  : " Close "
+CLOSEMENU_BUTTON  : " Close "
 BACK_BUTTON : "◁"
-UNBAN_BUTTON : "• ᴜɴʙᴀɴ •"
+UNBAN_BUTTON : " Unban "
 
 #Lyrics
 L_B_1 : "🚀 ᴄʜᴇᴄᴋᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
