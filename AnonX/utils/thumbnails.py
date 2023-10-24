@@ -1,7 +1,7 @@
 import os
 import re
 import textwrap
-
+import gen_qthumb
 import aiofiles
 import aiohttp
 from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
