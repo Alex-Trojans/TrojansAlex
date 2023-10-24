@@ -68,9 +68,9 @@ async def gen_thumb(videoid):
         logo = ImageOps.expand(logo, border=5, fill="white")
         background.paste(logo, (170, 20))
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("assets/font2.ttf", 40)
-        font2 = ImageFont.truetype("assets/font2.ttf", 70)
-        arial = ImageFont.truetype("assets/font2.ttf", 30)
+        font = ImageFont.truetype("AnonXassets/font2.ttf", 40)
+        font2 = ImageFont.truetype("AnonXassets/font2.ttf", 70)
+        arial = ImageFont.truetype("AnonX/font2.ttf", 30)
         name_font = ImageFont.truetype("assets/font.ttf", 35)
         para = textwrap.wrap(title, width=32)
         j = 0
