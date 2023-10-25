@@ -23,5 +23,3 @@ numpy
 yt-dlp
 youtube-search
 youtube-search-python
-unidecode
-gen_qthumb
