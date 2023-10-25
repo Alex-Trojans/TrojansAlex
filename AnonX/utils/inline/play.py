@@ -322,6 +322,9 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
+                text="support", url=config.SUPPORT_GROUP
+            ),
+            InlineKeyboardButton(
                 text="๏ Close ๏", callback_data=f"close"
             )
         ],
