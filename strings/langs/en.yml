@@ -140,7 +140,7 @@ cplay_5 : "ᴏɴʟʏ ᴄʜᴀɴɴᴇʟs ᴀʀᴇ sᴜᴘᴘᴏʀᴛᴇᴅ."
 cplay_6 : "ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴛʜᴇ **ᴏᴡɴᴇʀ** ᴏꜰ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ [{0}] ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ɪᴛ ᴡɪᴛʜ ᴛʜɪs ɢʀᴏᴜᴘ.\n**ᴄʜᴀɴɴᴇʟ's ᴏᴡɴᴇʀ:** @{1}\n\nᴀʟᴛᴇʀɴᴀᴛɪᴠᴇʟʏ ʏᴏᴜ ᴄᴀɴ ʟɪɴᴋ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴛʀʏ ᴄᴏɴɴɴᴇᴄᴛɪɴɢ ᴡɪᴛʜ `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Processing Query... Please Wait!"
+play_1 : "🔄 Processing Your Query...!"
 play_2 : "🏷**ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ ᴍᴏᴅᴇ**\n🔄 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!\n\n**ʟɪɴᴋᴇᴅ ᴄʜᴀɴɴᴇʟ:** {0}"
 play_3 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴘʀᴏᴄᴇss ǫᴜᴇʀʏ !"
 play_4 : "🖇 **ᴀᴅᴍɪɴs ᴏɴʟʏ ᴘʟᴀʏ**\nᴏɴʟʏ ᴀᴅᴍɪɴs ᴀɴᴅ ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ.\n\nᴄʜᴀɴɢᴇ ᴍᴏᴅᴇ ᴠɪᴀ /playmode ᴀɴᴅ ɪꜰ ʏᴏᴜ'ʀᴇ ᴀʟʀᴇᴀᴅʏ ᴀᴅᴍɪɴ, ʀᴇʟᴏᴀᴅ ᴀᴅᴍɪɴᴄᴀᴄʜᴇ ᴠɪᴀ `/reload`"
@@ -221,14 +221,14 @@ song_11 : "ᴜᴘʟᴏᴀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ ʙᴀʙʏ\n\nᴘʟᴇᴀs�
 queue_1 : " Please wait..."
 queue_2 : "Queued List is empty. No tracks found"
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "**✨ Added to Quque at #{0}**\n\n✨ **Title :** {1}\n✨ **Duration :** {2} Minutes\n👤 **Requested By :** {3}"
+queue_4 : "**✨ Added to Quque at #{0}**\n\n🔦**Information :** {1}\n🕛 **Duration :** {2} Minutes\n👤 **Requested By :** {3}"
 queue_5 : "ᴏɴʟʏ ᴏɴᴇ ᴛʀᴀᴄᴋ ɪs ɪɴ ǫᴜᴇᴜᴇ, ᴀᴅᴅ sᴏᴍᴇ ᴍᴏʀᴇ ᴛʀᴀᴄᴋs ɪɴ ǫᴜᴇᴜᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇ."
 
 # All Streaming Lines
-stream_1 : "➢ **Started Streaming**\n\n✨ **Title :** [{0}]({1})\n💫**Duration :** {2} Minutes\n👤 **Requested By :** {3}"
+stream_1 : "➢ **Started Streaming**\n\n🔦 **Information :** [{0}]({1})\n🕛**Duration :** {2} Minutes\n👤 **Requested By :** {3}"
 stream_2 : "➢ **Started Streaming**\n\n✨**Stream Type :** Live Stream [url]\n👤 **Requested By:** {0}"
-stream_3 : "➢ **Started Streaming**\n\n✨ **Title:** {0}\n🕕 **Duration:** {1}\n👤 **Requested By:** {2} "
-stream_4 : "➢ **Started Streaming**\n\n✨ **Title :** [{0}]({1})\n🕕 **Duration:** {2}\n👤 **Requested By :** {3}"
+stream_3 : "➢ **Started Streaming**\n\n🔦**Information:** {0}\n🕕 **Duration:** {1}\n👤 **Requested By:** {2} "
+stream_4 : "➢ **Started Streaming**\n\n🔦**Information :** [{0}]({1})\n🕕 **Duration:** {2}\n👤 **Requested By :** {3}"
 
 # Inline Buttons
 
