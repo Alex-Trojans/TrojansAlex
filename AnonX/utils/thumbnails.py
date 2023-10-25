@@ -40,7 +40,6 @@ async def get_thumb(videoid):
             try:
                 title = result["title"]
                 title = re.sub("\W+", " ", title)
-import re
 
 import aiofiles
 import aiohttp
