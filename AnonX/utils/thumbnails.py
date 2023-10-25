@@ -1,7 +1,6 @@
 import os
 import re
 
-import gen_thumb
 import aiofiles
 import aiohttp
 
