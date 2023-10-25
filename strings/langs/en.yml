@@ -225,10 +225,10 @@ queue_4 : "**✨ Added to Quque at #{0}**\n\n🔦**Information :** {1}\n🕛 **D
 queue_5 : "ᴏɴʟʏ ᴏɴᴇ ᴛʀᴀᴄᴋ ɪs ɪɴ ǫᴜᴇᴜᴇ, ᴀᴅᴅ sᴏᴍᴇ ᴍᴏʀᴇ ᴛʀᴀᴄᴋs ɪɴ ǫᴜᴇᴜᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇ."
 
 # All Streaming Lines
-stream_1 : "➢ **Started Streaming**\n\n🔦 **Information :** [{0}]({1})\n🕛**Duration :** {2} Minutes\n👤 **Requested By :** {3}"
-stream_2 : "➢ **Started Streaming**\n\n✨**Stream Type :** Live Stream [url]\n👤 **Requested By:** {0}"
-stream_3 : "➢ **Started Streaming**\n\n🔦**Information:** {0}\n🕕 **Duration:** {1}\n👤 **Requested By:** {2} "
-stream_4 : "➢ **Started Streaming**\n\n🔦**Information :** [{0}]({1})\n🕕 **Duration:** {2}\n👤 **Requested By :** {3}"
+stream_1 : "📡 **Started Streaming**\n\n🔦 **Information :** [{0}]({1})\n🕛**Duration :** {2} Minutes\n👤 **Requested By :** {3}"
+stream_2 : "📡 **Started Streaming**\n\n✨**Stream Type :** Live Stream [url]\n👤 **Requested By:** {0}"
+stream_3 : "📡 **Started Streaming**\n\n🔦**Information:** {0}\n🕕 **Duration:** {1}\n👤 **Requested By:** {2} "
+stream_4 : "📡 **Started Streaming**\n\n🔦**Information :** [{0}]({1})\n🕕 **Duration:** {2}\n👤 **Requested By :** {3}"
 
 # Inline Buttons
 
