@@ -52,15 +52,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" sᴜᴩᴩᴏʀᴛ ", url=config.SUPPORT_GROUP
+                text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text=" ᴇᴍᴘᴇʀᴏʀ  ", user_id=OWNER
+                text="ᴇᴍᴘᴇʀᴏʀ", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text=" ᴄʜᴀᴛ ", url="https://t.me/DAZZLING_GALAXY"
+                text="sᴏᴄɪᴇᴛʏ", url="https://t.me/oG_Society"
             )
         ],
      ]
