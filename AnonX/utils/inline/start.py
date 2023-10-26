@@ -56,6 +56,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
             InlineKeyboardButton(
                 text="sᴏᴄɪᴇᴛʏ", 
+                
                 url="https://t.me/oG_Society",
             )
         ],
