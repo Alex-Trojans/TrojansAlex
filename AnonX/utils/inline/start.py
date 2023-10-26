@@ -55,12 +55,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="ᴇᴍᴘᴇʀᴏʀ", user_id=OWNER
+                text="sᴏᴄɪᴇᴛʏ", 
+                url="https://t.me/oG_Society",
             )
         ],
         [
             InlineKeyboardButton(
-                text="sᴏᴄɪᴇᴛʏ", url="https://t.me/oG_Society"
+                text="ᴇᴍᴘᴇʀᴏʀ", user_id="OWNER 
             )
         ],
      ]
