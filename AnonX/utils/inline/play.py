@@ -58,10 +58,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="support", url=config.SUPPORT_GROUP
+                text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="๏ Close ๏", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -118,7 +118,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="๏ Close ๏", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -144,7 +144,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ Close ๏", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -170,7 +170,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ Close ๏", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -294,7 +294,7 @@ close_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="๏ Close ๏", callback_data="close"
+                        text="ᴄʟᴏsᴇ", callback_data="close"
                     )
                 ]    
             ]
@@ -322,10 +322,10 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="support", url=config.SUPPORT_GROUP
+                text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="๏ Close ๏", callback_data=f"close"
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
