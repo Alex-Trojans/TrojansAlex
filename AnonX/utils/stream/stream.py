@@ -18,7 +18,7 @@ from AnonX.utils.inline.play import (stream_markup, queue_markup,
 from AnonX.utils.inline.playlist import close_markup
 from AnonX.utils.pastebin import Anonbin
 from AnonX.utils.stream.queue import put_queue, put_queue_index
-from AnonX.utils.thumbnails import gen_thumb, gen_qthumb
+from AnonX.utils.thumbnails import gen_thumb
 
 
 async def stream(
@@ -164,15 +164,11 @@ async def stream(
                 "video" if video else "audio",
             )
             position = len(db.get(chat_id)) - 1
-            qimg = await gen_qthumb(vidid, user_id)
-            button = queue_markup(_, vidid, chat_id)
-            run = await app.send_photo(
+            run = await app.send_message(
                 original_chat_id,
-                photo=qimg,
-                caption=_["queue_4"].format(
+                _["queue_4"].format(
                     position, title[:27], duration_min, user_name
                 ),
-                reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
