@@ -10,7 +10,6 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from config import YOUTUBE_IMG_URL
 
-
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
     heightRatio = maxHeight / image.size[1]
@@ -18,7 +17,6 @@ def changeImageSize(maxWidth, maxHeight, image):
     newHeight = int(heightRatio * image.size[1])
     newImage = image.resize((newWidth, newHeight))
     return newImage
-
 
 async def gen_thumb(videoid, user_id):
     if os.path.isfile(f"cache/{videoid}.png"):
@@ -51,9 +49,7 @@ async def gen_thumb(videoid, user_id):
         async with aiohttp.ClientSession() as session:
             async with session.get(thumbnail) as resp:
                 if resp.status == 200:
-                    f = await aiofiles.open(
-                        f"cache/thumb{videoid}.png", mode="wb"
-                    )
+                    f = await aiofiles.open(f"cache/thumb{videoid}.png", mode="wb")
                     await f.write(await resp.read())
                     await f.close()
 
@@ -80,9 +76,7 @@ async def gen_thumb(videoid, user_id):
         name_font = ImageFont.truetype("AnonXMusic/assets/font.ttf", 30)
         para = textwrap.wrap(title, width=32)
         j = 0
-        draw.text(
-            (5, 5), f"{app.name}", fill="white", font=name_font
-        )
+        draw.text((5, 5), f"{app.name}", fill="white", font=name_font)
         draw.text(
             (600, 150),
             "NOW PLAYING",
@@ -113,12 +107,7 @@ async def gen_thumb(videoid, user_id):
                     font=font,
                 )
 
-        draw.text(
-            (600, 450),
-            f"Views : {views[:23]}",
-            (255, 255, 255),
-            font=arial,
-        )
+        draw.text((600, 450), f"Views : {views[:23]}", (255, 255, 255), font=arial)
         draw.text(
             (600, 500),
             f"Duration : {duration[:23]} Mins",
@@ -138,5 +127,5 @@ async def gen_thumb(videoid, user_id):
         background.save(f"cache/{videoid}.png")
         return f"cache/{videoid}.png"
     except Exception as e:
-    	print(e)
+        print(e)
         return YOUTUBE_IMG_URL
